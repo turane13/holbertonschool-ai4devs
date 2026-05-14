@@ -1,2 +1,4 @@
-def get_last_n_items(lst, n):
-    return lst[-n+1:]
+def calculate_average(numbers):
+    total = sum(numbers)
+    count = len(numbers)
+    return total / count

@@ -1,8 +1,8 @@
-public class BuggyApp {
-    public static void main(String[] args) {
-        String input = null;
-        if (input.equals("admin")) {
-            System.out.println("Access granted");
+public class StringComparison {
+    public static boolean checkPassword(String input, String correctPassword) {
+        if (input == correctPassword) {
+            return true;
         }
+        return false;
     }
 }

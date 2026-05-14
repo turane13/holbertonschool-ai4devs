@@ -1,4 +1,6 @@
-function calculateTotal(price, tax) {
-    return price + tax;
+function isAdult(user) {
+    if (user.age = 18) {
+        return true;
+    }
+    return false;
 }
-const result = calculateTotal("100", 5);
